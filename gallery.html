@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+  <meta charset="UTF-8">
+  <title>Hassan کی گیلری</title>
+  <style>
+    body {
+      background: #fafafa;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      font-size: 28px;
+    }
+    nav {
+      background: #34495e;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: yellow;
+    }
+    section {
+      padding: 40px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Hassan کی گیلری 📸
+  </header>
+  <nav>
+    <a href="index.html">ہوم</a>
+    <a href="about.html">ہمارے بارے میں</a>
+    <a href="contact.html">رابطہ کریں</a>
+    <a href="gallery.html">گیلری</a>
+  </nav>
+  <section>
+    <h1>Hassan کی تصاویر</h1>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/400x250?text=تصویر+1" alt="تصویر 1">
+      <img src="https://via.placeholder.com/400x250?text=تصویر+2" alt="تصویر 2">
+      <img src="https://via.placeholder.com/400x250?text=تصویر+3" alt="تصویر 3">
+      <img src="https://via.placeholder.com/400x250?text=تصویر+4" alt="تصویر 4">
+      <img src="https://via.placeholder.com/400x250?text=تصویر+5" alt="تصویر 5">
+      <img src="https://via.placeholder.com/400x250?text=تصویر+6" alt="تصویر 6">
+    </div>
+  </section>
+  <footer>
+    © 2025 Hassan | 📞 03450760000
+  </footer>
+</body>
+</html>
